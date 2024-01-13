@@ -1,0 +1,70 @@
+/* works google fonts  */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+header {
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titel {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner-titel {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-driscription {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+    background: #FF900E;
+    border: 0;
+   margin-bottom: 3.12rem;
+   margin-top: 2rem;
+}
